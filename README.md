@@ -23,7 +23,7 @@ Features:
 ## Installation
 
 ```sh
-make
+env OPTFLAGS=-DNO_DEFAULT_ROUTES make
 ```
 
 On Raspberry Pi 3 and 4, use the following command instead to enable NEON optimizations:
